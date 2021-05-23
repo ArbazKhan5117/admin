@@ -1,0 +1,38 @@
+{
+  "name": "create-react-app-example",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "axios": "^0.21.1",
+    "build": "^0.1.4",
+    "chart.js": "^3.2.1",
+    "react": "^16.10.2",
+    "react-chartjs-2": "^3.0.3",
+    "react-dom": "^16.10.2",
+    "react-google-charts": "^3.0.15",
+    "react-player": "^2.9.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.2.0"
+  },
+  "devDependencies": {
+    "react-cosmos": "^5.0.0-beta.15"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,127 @@
+body{
+    background: skyblue;
+}
+*{
+	text-decoration:none;
+	list-style:none;
+
+}
+.newPassword-class,
+.forget-class,
+.adminlogin-class,
+.login-class{
+    width: 500px;
+    margin:30px 280px;
+    background: Gainsboro;
+    box-shadow: 10px 10px 10px gray;
+    border-radius:20px;
+    text-align: center;
+    
+}
+h2{
+    padding-top:20px;
+    font-family: "Times New Roman", Times, serif;
+}
+.adminlogin-class h5,
+.login-class h5{
+    font-style: italic;
+}
+.forget-class h3{
+    padding-top:30px;
+    padding-bottom:0px;
+}
+.forget-class h5{
+    padding-bottom:30px;
+    padding-top:0px;
+}
+
+.forget-class h6,
+.adminlogin-class h6,
+.login-class h6{
+    padding-bottom:20px;
+}
+.login-signup-btn{
+    margin-left:10px;
+    cursor:pointer;
+    color: blue;
+
+}
+.login-signup-btn:hover{
+    color:  rgb(48, 168, 207);
+
+}
+form{
+    margin-top:50px;
+}
+form input{
+    margin-bottom:20px;
+}
+.forget-btn,
+.login-btn{
+    margin-top:20px;
+    width:70px;
+    height:25px;
+    font-size:15px;
+    border-radius:5px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    transition:all .25s ease-in-out;
+    
+}
+
+.forget-btn:hover,
+.login-btn:hover{
+    background: rgb(104, 203, 236);
+    color: black;
+    transform:scale(1.2);
+    border:2px lavender solid;
+    transition:all .25s ease-in-out;
+    cursor: pointer;
+}
+h6{
+    padding-top:50px;
+    font-style: italic;
+}
+.newpass-msg{
+    padding-top:0px;
+    padding-bottom:0px;
+    color: rgb(112, 6, 6);
+}
+.forget-class .login-input,
+.adminlogin-class .login-input,
+.login-class .login-input{
+    border-radius: 5px;
+    height:25px;
+    width: 200px;
+    border:2px solid lavender;
+    transition:all .25s ease-in-out;
+    box-shadow: -8px 10px 5px 0px rgba(136,107,107,0.75);
+-webkit-box-shadow: -8px 10px 5px 0px rgba(136,107,107,0.75);
+-moz-box-shadow: -8px 10px 5px 0px rgba(136,107,107,0.75);
+}
+.forget-class .login-input:hover,
+.adminlogin-class .login-input:hover,
+.login-class .login-input:hover{
+    border:2px solid rgb(104, 203, 236);
+    transform:scale(1.08);
+    transition:all .25s ease-in-out;
+    
+
+}
+
+/*-----------------------------------------------------Admin-CSS---------------------------------------*/
+
+.adminForgetState{
+    padding-top: 10px;
+}
+.adminlogin-class{
+    margin-top: 70px;
+}
+.newPassword-class{
+    position: absolute;
+    margin:0px;
+    margin-top: -300px;
+    background: Gainsboro;
+    z-index: 100px;
+    height:370px;
+}

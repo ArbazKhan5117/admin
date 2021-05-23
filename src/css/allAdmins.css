@@ -1,0 +1,72 @@
+.allAdmins-class{
+    height:407px;
+    overflow: scroll;
+    overflow-x: hidden;
+    border-radius: 20px;
+    background: rgb(161, 160, 160);
+}
+.allAdmins-class .customers-allAdmins tr td img{
+    width:60px;
+    height:60px;
+    border-radius: 30px;
+}
+.allAdmins-class .customers-allAdmins{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 20px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+  }
+  
+  .allAdmins-class .customers-allAdmins td,.allAdmins-class .customers-allAdmins th {
+    
+    padding: 8px;
+  }
+  
+  .allAdmins-class .customers-allAdmins tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .allAdmins-class .customers-allAdmins tr:hover {background-color: rgb(242, 250, 135);}
+  
+  .allAdmins-class .customers-allAdmins tr th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #4CAF50;
+    color: white;
+    
+  }
+  .allAdmins-class .customers-allAdmins tr{
+      height: 70px;
+  }
+  .allAdmins-class .customers-allAdmins td{
+    padding-left: 20px;
+}
+
+.customers-heading-left{
+    border-top-left-radius: 20px;
+}
+.customers-heading-right{
+    border-top-right-radius: 20px;
+}
+.allAdmins-class .customers-allAdmins .delete-btn{
+    cursor:pointer;
+    color: rgb(219, 66, 55);
+    text-align: right;
+    padding-right: 30px;
+    transition:all .25s ease-in-out;
+}
+.allAdmins-class .customers-allAdmins .delete-btn:hover{
+    transform:scale(1.09);
+    color: rgb(170, 16, 5);
+    transition:all .35s ease-in-out;
+}
+.allAdmins-class{
+    height:407px;
+    overflow: scroll;
+    overflow-x: hidden;
+    border-radius: 20px;
+    background: rgb(161, 160, 160);
+}
+.allAdmins-super{
+    height:407px;
+}

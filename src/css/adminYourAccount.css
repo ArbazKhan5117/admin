@@ -1,0 +1,169 @@
+.adminYourAccount{
+    
+    
+}
+.adminYourAccount h2{
+    text-align: center;
+    color:aqua;
+}
+.login-btn{
+    margin-top:20px;
+    width:70px;
+    height:25px;
+    font-size:15px;
+    border-radius:5px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    transition:all .25s ease-in-out;
+    
+}
+.login-btn:hover{
+    background: rgb(104, 203, 236);
+    color: black;
+    transform:scale(1.09);
+    border:2px rgb(141, 139, 139) solid;
+    transition:all .25s ease-in-out;
+    cursor: pointer;
+}
+
+.adminYourAccount .login-input{
+    border-radius: 5px;
+    height:25px;
+    width: 200px;
+    border:2px solid lavender;
+    transition:all .35s ease-in-out;
+    box-shadow: -8px 10px 5px 0px rgba(136,107,107,0.75);
+-webkit-box-shadow: -8px 10px 5px 0px rgba(136,107,107,0.75);
+-moz-box-shadow: -8px 10px 5px 0px rgba(136,107,107,0.75);
+}
+.adminYourAccount .login-input:hover{
+    border:2px solid rgb(104, 203, 236);
+    transform:scale(1.08);
+    transition:all .25s ease-in-out;
+}
+.adminYourAccount .login-form{
+    text-align: center;
+}
+.adminYourAccount .present-info{
+    margin-left:240px;
+}
+.adminYourAccount .present-info .profile{
+    width:80px;
+    height:80px;
+    background: white;
+    margin:10px auto;
+    border-radius: 10px;
+    margin-bottom:5px;
+    margin-left:67px;
+}
+.adminYourAccount .present-info .profile img{
+    width:100%;
+    height:100%;
+    border-radius: 7px;
+}
+.adminYourAccount .present-info .edit-form{
+    
+}
+.adminYourAccount .present-info .edit-form .edit-profile-img{
+    display: flex;
+    flex: 1;
+    width:500px;
+    margin-left:-32px;
+    margin-top:-40px
+
+}
+.profile-label,
+.level-label{
+    margin-right:10px;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.profile-label,
+.submit-btn{
+    margin-top:20px;
+    height:25px;
+    font-size:15px;
+    border-radius:10px;
+    transition:all .35s ease-in-out;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+.submit-btn{
+    margin-left: -270px;
+    margin-top:10px;
+}
+.profile-label{
+    width:70px;
+    margin-left:10px;
+    transition:all .35s ease-in-out;
+    margin-bottom: 0px;
+    margin-top:0px;
+}
+.profile-label:hover,
+.submit-btn:hover{
+    background: dodgerblue;
+    color: white;
+    transition:all .35s ease-in-out;
+    transform:scale(1.09);
+    border:2px gray solid;
+    cursor: pointer;
+    
+}
+.adminYourAccount .profile-input{
+    color: transparent;
+    width:130px;
+}
+
+.customers-edit-adminAccount {
+    font-family: "Times New Roman", Times, serif;
+    border-collapse: collapse;
+    font-weight: bold;
+    margin-left:-210px;
+  }
+  
+  .customers-edit-adminAccount td, .customers-edit-adminAccount th {
+    padding: 6px;
+    padding-right: 30px;
+  }
+  
+  .customers-edit-adminAccount tr:nth-child(even){background-color: rgb(141, 139, 139);}
+  
+  .edit-form .customers-edit-adminAccount .chng:hover{
+      background:rgb(174, 227, 245);
+  }
+  .customers-edit-adminAccount th {
+    padding-top: 0px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  /*---------------------------------------------Add Admin Account-------------------------*/
+  .customers-edit-addAdmin {
+    font-family: "Times New Roman", Times, serif;
+    border-collapse: collapse;
+    font-weight: bold;
+    margin-left:-210px;
+  }
+  
+  .customers-edit-addAdmin td, .customers-edit-addAdmin th {
+    padding: 6px;
+    padding-right: 30px;
+  }
+  
+  .customers-edit-addAdmin tr:nth-child(even){background-color: rgb(141, 139, 139);}
+  
+  .edit-form .customers-edit-addAdmin .chng:hover{
+      background:rgb(174, 227, 245);
+  }
+  .customers-edit-addAdmin th {
+    padding-top: 0px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  

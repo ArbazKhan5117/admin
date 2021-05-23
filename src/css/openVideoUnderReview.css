@@ -1,0 +1,193 @@
+.OpenVideoUnderReview-class{
+    position: absolute;
+    height:407px;
+    border-radius: 20px;
+    background: rgb(161, 160, 160);
+    width:67%;
+    font-family: "Times New Roman", Times, serif;
+    
+}
+.OpenVideoUnderReview-class h2{
+    margin-top:0px;
+    color:aqua;
+}
+.OpenVideoUnderReview-class .divs{
+    z-index: 100;
+    display: flex;
+    flex: 1;
+}
+.OpenVideoUnderReview-class .left-div{
+    text-align: left;
+    margin-top:12px;
+    height:110px;
+    width:50%;
+    margin-left:50px;
+    border: 2px gray solid;
+    border-radius: 20px;
+    margin-right:70px;
+
+}
+.OpenVideoUnderReview-class .left-div h3{
+    margin:10px;
+}
+.OpenVideoUnderReview-class .left-div .topic-name{
+    color:rgb(141, 11, 37);
+}
+.OpenVideoUnderReview-class .right-div{
+    height:150px;
+    width:25%;
+    
+}
+.OpenVideoUnderReview-class .tutor_name{
+    margin-top:6px;
+}
+.OpenVideoUnderReview-class .tutor_profile{
+    width:100px;
+    height:100px;
+    border-radius: 20px;
+    margin-left:43px;
+    margin-top:10px;
+}
+.OpenVideoUnderReview-class .tutor_profile img{
+    width:100%;
+    height:100%;
+    border-radius: 20px;
+}
+
+.OpenVideoUnderReview-class .videos-divs{
+    width: 100%;
+    height:140px;
+    display: flex;
+    flex: 1;
+}
+.OpenVideoUnderReview-class .videos-divs .lecVideo-div,
+.OpenVideoUnderReview-class .videos-divs .contentVideo-div{
+    height:125px;
+    margin-top: 10px;
+    width:187px;
+    background: rgb(78, 77, 77);
+    border-radius: 15px;
+    margin-left: 25px;
+    padding-left:15px;
+}
+.OpenVideoUnderReview-class .videos-divs .lecVideo-div{
+    margin-left:20px;
+}
+.OpenVideoUnderReview-class .videos-divs .des-div{
+    margin-left: 20px;
+    width:230px;
+    height:110px;
+    margin-top:17px;
+    border-radius: 15px;
+    border:2px solid gray
+}
+.OpenVideoUnderReview-class .videos-divs .des-div h4{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    color: rgb(36, 35, 35);
+}
+.OpenVideoUnderReview-class .videos-divs .des-div p{
+    margin-top:5px;
+}
+.OpenVideoUnderReview-class .videos-divs .lecVideo-div h4,
+.OpenVideoUnderReview-class .videos-divs .contentVideo-div h4{
+    margin-top:1px;
+    margin-left:-10px;
+}
+
+.OpenVideoUnderReview-class .options-div{
+    width:100%;
+    height:50px;
+    background: rgb(129, 129, 129);
+    text-align: left;
+    margin-top:6.5px;
+}
+.OpenVideoUnderReview-class .options-div .warn-btn{
+    cursor:pointer;
+    width:120px;
+    height:25px;
+    border-radius: 15px;
+    color: rgb(219, 66, 55);
+    transition:all .25s ease-in-out;
+    margin-top:13px;
+    margin-left:30px;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+}
+.OpenVideoUnderReview-class .options-div .warn-btn:hover{
+    transform:scale(1.09);
+    color: rgb(245, 204, 20);
+    background: rgb(170, 16, 5);
+    border:2px solid rgb(170, 16, 5);
+    transition:all .35s ease-in-out;
+}
+.OpenVideoUnderReview-class .options-div .remove-videoBtn{
+    margin-left:100px;
+}
+.OpenVideoUnderReview-class .options-div .backBtn{
+    width:50px;
+    height:20px;
+    font-size:10px;
+    border-radius:8px;
+    transition:all .35s ease-in-out;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    margin-left: 80px;
+}
+.OpenVideoUnderReview-class .options-div .backBtn:hover{
+    background: rgb(69, 89, 95);
+    transition:all .35s ease-in-out;
+    color: white;
+    transform:scale(1.1);
+    border:2px rgb(69, 89, 95) solid;
+    cursor: pointer;
+}
+
+/*-------------------------------give-warning-----------------------------------------------*/
+
+.giveWarnig-class{
+    position: absolute;
+    z-index: 150;
+    width:300px;
+    height:240px;
+    background: white;
+    border:2px solid darkgrey;
+    border-radius: 20px;
+    margin-top: -350px;
+    margin-left: 180px;
+}
+.giveWarnig-class .warning-class{
+    width:220px;
+    height:80px;
+    border:2px solid gray;
+    border-radius: 5px;
+    padding:5px;
+    transition:all .35s ease-in-out;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+}
+.giveWarnig-class .warning-class:hover{
+    transition:all .35s ease-in-out;
+    transform:scale(1.05);
+}
+.giveWarnig-class .submit-btn{
+    margin-top:20px;
+    margin-left:0px;
+    width:70px;
+    height:25px;
+    font-size:15px;
+    border-radius:5px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    transition:all .25s ease-in-out;
+}
+.giveWarnig-class .submit-btn:hover{
+    background: rgb(104, 203, 236);
+    color: black;
+    transform:scale(1.2);
+    border:2px white solid;
+    transition:all .25s ease-in-out;
+    cursor: pointer;
+}
+

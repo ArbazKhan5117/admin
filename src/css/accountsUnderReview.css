@@ -1,0 +1,127 @@
+.accountsUnderReview-class{
+    height:407px;
+    border-radius: 20px;
+    background: rgb(161, 160, 160);
+}
+.accountsUnderReview-class .customers-AccountsUnderReview tr td img{
+    width:60px;
+    height:60px;
+    border-radius: 30px;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.accountsUnderReview-class .customers-AccountsUnderReview{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 20px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+  }
+  
+  .accountsUnderReview-class .customers-AccountsUnderReview td,.accountsUnderReview-class .customers-AccountsUnderReview th {
+    
+    padding: 8px;
+  }
+  
+  .accountsUnderReview-class .customers-AccountsUnderReview tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .accountsUnderReview-class .customers-AccountsUnderReview tr:hover {background-color: rgb(242, 250, 135);}
+  
+  .accountsUnderReview-class .customers-AccountsUnderReview tr th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #4a9604;
+    color: white;
+    
+  }
+
+.accountsUnderReview-class .customers-AccountsUnderReview tr .sr-th{
+    border-top-left-radius: 20px;
+}
+.accountsUnderReview-class .customers-AccountsUnderReview tr .open-th{
+    border-top-right-radius: 20px;
+}
+.accountsUnderReview-class .customers-AccountsUnderReview{
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.accountsUnderReview-class .customers-AccountsUnderReview .delete-btn{
+    cursor:pointer;
+    color: rgb(219, 66, 55);
+    text-align: right;
+    padding-right: 30px;
+    transition:all .25s ease-in-out;
+}
+.accountsUnderReview-class .customers-AccountsUnderReview .delete-btn:hover{
+    transform:scale(1.09);
+    color: rgb(170, 16, 5);
+    transition:all .35s ease-in-out;
+}
+
+.accountsUnderReview-class .customers-AccountsUnderReview .sr-th,
+.accountsUnderReview-class .customers-AccountsUnderReview .sr-td{
+    width:55px;
+    text-align: center;
+  }
+  
+.accountsUnderReview-class .customers-AccountsUnderReview .topic-th,
+.accountsUnderReview-class .customers-AccountsUnderReview .topic-td{
+    width: 452px;
+    text-align: left;
+    padding-left:0px;
+}
+.accountsUnderReview-class .customers-AccountsUnderReview .rate-th,
+.accountsUnderReview-class .customers-AccountsUnderReview .rate-td{
+    width: 70px;
+    text-align: left;
+}
+.accountsUnderReview-class .customers-AccountsUnderReview .tut-th,
+.accountsUnderReview-class .customers-AccountsUnderReview .tut-td{
+    width: 140px;
+    text-align: left;
+}
+.accountsUnderReview-class .customers-AccountsUnderReview .open-th{
+    width: 85px;
+    text-align: left;
+}
+
+.accountsUnderReview-class .accountsUnderReviewInfo-class{
+    width:100%;
+    height:363.5px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.tutorStop-btn,
+.customers .playTut-btn,
+.accountsUnderReview-class .customers-AccountsUnderReview .play-btn{
+    width:50px;
+    height:20px;
+    font-size:10px;
+    margin-right:20px;
+    border-radius:8px;
+    font-family: "Times New Roman", Times, serif;
+    
+    transition:all .35s ease-in-out;
+    font-weight: bold;
+}
+.tutorStop-btn{
+  position:absolute;
+  z-index: 120;
+  margin-top:-34px;
+  margin-left:740px;
+  
+}
+.customers .playTut-btn{
+  margin-right:0px;
+}
+.tutorStop-btn:hover,
+.customers .playTut-btn:hover,
+.accountsUnderReview-class .customers-AccountsUnderReview .play-btn:hover{
+    background: rgb(69, 89, 95);
+    transition:all .35s ease-in-out;
+    color: white;
+    border:2px rgb(69, 89, 95) solid;
+    cursor: pointer;
+}

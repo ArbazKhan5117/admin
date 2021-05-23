@@ -1,0 +1,133 @@
+.editSubject-class{
+    align-items: center;
+}
+.editSubject-class h2{
+    text-align: center;
+    color:aqua;
+    padding-top: 0px;
+}
+.editSubject-class .table-class{
+    background: Gainsboro;
+    width:420px;
+    height:263px;
+    margin:10px auto;
+    border-radius: 20px;
+    margin-bottom: 1px;
+    overflow: scroll;
+    overflow-x: hidden;
+    
+}
+.editSubject-class form{
+    margin-top: 0px;
+}
+.editSubject-class .login-input{
+    border-radius: 5px;
+    margin-left:0px;
+    height:25px;
+    width: 200px;
+    border:2px solid lavender;
+    transition:all .25s ease-in-out;
+    box-shadow: -8px 10px 5px 0px rgba(136,107,107,0.75);
+-webkit-box-shadow: -8px 10px 5px 0px rgba(136,107,107,0.75);
+-moz-box-shadow: -8px 10px 5px 0px rgba(136,107,107,0.75);
+}
+.editSubject-class .login-input:hover{
+    border:2px solid rgb(104, 203, 236);
+    transform:scale(1.05);
+    transition:all .25s ease-in-out;
+}
+
+.editSubject-class .add-btn{
+    margin-top:11px;
+    margin-left: 12px;
+    width:70px;
+    height:30px;
+    font-size:15px;
+    border-radius:5px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    transition:all .25s ease-in-out;
+    
+}
+.editSubject-class .add-btn:hover{
+    background: rgb(104, 203, 236);
+    color: black;
+    transform:scale(1.09);
+    border:2px rgb(141, 139, 139) solid;
+    transition:all .25s ease-in-out;
+    cursor: pointer;
+}
+
+.editSubject-class .table-class .customers-subject {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 20px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    height:256px;
+  }
+  
+  .editSubject-class .table-class .customers-subject td,.editSubject-class .table-class .customers-subject th {
+    
+    padding: 8px;
+  }
+  
+  .editSubject-class .table-class .customers-subject tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .editSubject-class .table-class .customers-subject tr:hover {background-color: lightskyblue;}
+  
+  .editSubject-class .table-class .customers-subject tr th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+    
+  }
+  .editSubject-class .table-class .customers-subject td{
+    text-align: left;
+    padding-left: 20px;
+}
+
+.customers-heading-left{
+    border-top-left-radius: 20px;
+}
+.customers-heading-right{
+    border-top-right-radius: 20px;
+}
+.editSubject-class .table-class .customers-subject .delete-btn{
+    cursor:pointer;
+    color: rgb(219, 66, 55);
+    text-align: right;
+    padding-right: 30px;
+    transition:all .25s ease-in-out;
+}
+.editSubject-class .table-class .customers-subject .delete-btn:hover{
+    transform:scale(1.09);
+    color: rgb(170, 16, 5);
+    transition:all .25s ease-in-out;
+}
+
+/*------------------------------------------------------------
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }

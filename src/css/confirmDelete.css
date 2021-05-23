@@ -1,0 +1,47 @@
+.confirmDelete-admin,
+.confirmDelete-class{
+    position: absolute;
+    height: 70px;
+    width:420px;
+    background:white;
+    border:1px solid gray;
+    border-radius: 20px;
+    margin-top: -250px;
+    margin-left: 160px;
+    
+}
+.confirmDelete-admin{
+    margin-top:-250px;
+}
+.confirmDelete-admin h4,
+.confirmDelete-class h4{
+    margin-left: -50px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    font-family: "Times New Roman", Times, serif;
+}
+.login-btn-no,
+.login-btn-yes{
+    margin-top:5px;
+    margin-left:220px;
+    width:40px;
+    height:20px;
+    font-size:10px;
+    border-radius:5px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    transition:all .25s ease-in-out;
+    
+}
+.login-btn-no{
+    margin-left:10px;
+}
+.login-btn-no:hover,
+.login-btn-yes:hover{
+    background: rgb(16, 17, 17);
+    color: white;
+    transform:scale(1.09);
+    border:2px rgb(141, 139, 139) solid;
+    transition:all .25s ease-in-out;
+    cursor: pointer;
+}
